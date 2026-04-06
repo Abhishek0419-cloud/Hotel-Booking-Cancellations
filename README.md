@@ -37,7 +37,7 @@ The goal of this project is to identify the factors responsible for cancellation
 ---
 
 ## 5. Dashboard
-![Dashboard](Hotel Booking Dashboard.png)
+![Dashboard](Dashboard.png)
 
 
 ## 6. Key Insights
