@@ -36,7 +36,11 @@ The goal of this project is to identify the factors responsible for cancellation
 
 ---
 
-## 5. Key Insights
+## 5. Dashboard
+![Dashboard](Hotel Booking Dashboard.png)
+
+
+## 6. Key Insights
 
 * Bookings with long lead time had higher cancellation probability
 * City hotels experienced more cancellations than resort hotels
@@ -45,7 +49,7 @@ The goal of this project is to identify the factors responsible for cancellation
 
 ---
 
-## 6. Business Recommendations
+## 7. Business Recommendations
 
 * Introduce partial advance payment for long lead-time bookings
 * Offer discounts for non-refundable bookings
@@ -54,6 +58,6 @@ The goal of this project is to identify the factors responsible for cancellation
 
 ---
 
-## 7. Tools Used
+## 8. Tools Used
 
 Python, Pandas, Matplotlib, Power BI
