@@ -1,63 +1,58 @@
 # Hotel Booking Cancellation Analysis
 
-## 1. Business Problem
+## Overview
 
-Hotels face significant revenue loss due to booking cancellations. High cancellation rates also make room planning and staff allocation difficult.
-The goal of this project is to identify the factors responsible for cancellations and suggest actions to reduce them.
+This project analyzes hotel booking data to identify cancellation trends, customer behavior, booking patterns, and factors affecting hotel reservation cancellations. An interactive Excel dashboard was created to help stakeholders monitor key metrics and make data-driven decisions.
 
----
+## Problem Statement
 
-## 2. Dataset
+Hotel cancellations can significantly impact revenue and occupancy planning. The objective of this project was to analyze booking data, identify cancellation patterns, and uncover insights that can help reduce cancellation rates.
 
-* Source: Public hotel booking dataset (2015–2017)
-* Records: 100,000+ bookings
-* Key Columns: hotel type, lead time, arrival date, deposit type, customer type, cancellation status
+## Tools Used
 
----
+* Microsoft Excel
+* Pivot Tables
+* Pivot Charts
+* Data Cleaning
+* Dashboard Design
+* Business Analysis
 
-## 3. Data Cleaning
+## Dashboard Features
 
-* Removed duplicate records
-* Handled missing values
-* Converted date columns into usable format
-* Standardized categorical values
-* Checked outliers in booking lead time
+* Total Bookings and Total Cancellations
+* Year-wise Booking Analysis (2015–2017)
+* Hotel Type vs Bookings
+* Guest Type vs Cancellations
+* Room Type vs Cancellation Analysis
+* Monthly Booking and Cancellation Trends
+* Interactive Year Filter
 
----
+## Key Insights
 
-## 4. Analysis Performed
+* Analyzed **119,390 hotel bookings** and **44,224 cancellations**.
+* City Hotels accounted for a larger share of bookings than Resort Hotels.
+* Couples generated the highest number of bookings and cancellations.
+* Desired room types experienced significantly more cancellations than undesired room types.
+* Booking volume peaked during the summer months, with cancellations increasing alongside booking demand.
+* Cancellation rates increased considerably in 2017 compared to previous years.
 
-* Exploratory Data Analysis (EDA)
-* Cancellation rate comparison by hotel type
-* Lead time vs cancellation relationship
-* Customer type behavior analysis
-* Seasonal trend analysis
-* Visualization using Matplotlib / Power BI
+## Business Recommendations
 
----
+* Implement targeted retention strategies for high-cancellation customer segments.
+* Offer flexible booking modifications instead of cancellations.
+* Optimize pricing and promotional campaigns during peak cancellation periods.
+* Improve room allocation processes to reduce customer dissatisfaction.
 
-## 5. Dashboard
-![Dashboard](Dashboard.png)
+## Dashboard Preview
 
+![Hotel Booking Cancellation Dashboard](Dashboard.png)
 
-## 6. Key Insights
+## Project Outcome
 
-* Bookings with long lead time had higher cancellation probability
-* City hotels experienced more cancellations than resort hotels
-* Customers without deposit were most likely to cancel
-* Certain months showed peak cancellation rates
+Developed an interactive Excel dashboard that transformed raw booking data into actionable business insights, enabling better occupancy planning, revenue management, and cancellation reduction strategies.
 
----
+## Author
 
-## 7. Business Recommendations
+Abhishek Tripathi
 
-* Introduce partial advance payment for long lead-time bookings
-* Offer discounts for non-refundable bookings
-* Send reminder notifications before arrival dates
-* Improve demand forecasting using seasonal trends
-
----
-
-## 8. Tools Used
-
-Python, Pandas, Matplotlib, Power BI
+Aspiring Data Analyst | Excel | SQL | Python | Power BI
